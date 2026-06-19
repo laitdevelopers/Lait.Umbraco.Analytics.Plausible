@@ -5,10 +5,11 @@
   "extensions": [
     {
       "type": "dashboard",
-      "alias": "lait.dashboard.tracking",
-      "name": "Lait Tracking Dashboard",
+      "alias": "lait.dashboard.plausible.tracking",
+      "name": "LAIT Plausible Tracking info",
+      "author": "Anders Bootsmann",
       "js": "/App_Plugins/LaitTracking/tracking-dashboard.js",
-      "elementName": "lait-tracking-dashboard",
+      "elementName": "lait-plausible-tracking-dashboard",
       "weight": 15,
       "meta": {
         "label": "Tracking",

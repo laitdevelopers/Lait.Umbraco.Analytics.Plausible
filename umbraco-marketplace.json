@@ -1,8 +1,16 @@
 {
   "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
-  "packageType": "Package",
-  "category": "Analytics & Statistics",
-  "description": "Surface Plausible Analytics tracking data inside the Umbraco backoffice: a Tracking dashboard in the Content section and a per-page visits block on each document's Info tab.",
-  "tags": [ "analytics", "plausible", "tracking", "statistics", "dashboard" ],
-  "supportsUmbracoVersions": [ "17" ]
+  "PackageType": "Integration",
+  "Category": "Analytics & Insights",
+  "Title": "Lait Plausible Analytics for Umbraco",
+  "Description": "Surface Plausible Analytics tracking data inside the Umbraco backoffice: a Tracking dashboard in the Content section and a per-page visits block on each document's Info tab.",
+  "LicenseTypes": [ "Free" ],
+  "Tags": [ "analytics", "plausible", "tracking", "dashboard", "statistics" ],
+  "DocumentationUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible#readme",
+  "IssueTrackerUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible/issues",
+  "AuthorDetails": {
+    "Name": "Lait Developers",
+    "Url": "https://lait.dk",
+    "SyncContributorsFromRepository": true
+  }
 }
