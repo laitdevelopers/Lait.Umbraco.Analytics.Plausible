@@ -9,8 +9,9 @@
   "DocumentationUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible#readme",
   "IssueTrackerUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible/issues",
   "AuthorDetails": {
-    "Name": "Lait Developers",
+    "Name": "Anders Bootsmann",
     "Url": "https://lait.dk",
+    "ImageUrl": "https://github.com/laitdevelopers.png",
     "SyncContributorsFromRepository": true
   }
 }
