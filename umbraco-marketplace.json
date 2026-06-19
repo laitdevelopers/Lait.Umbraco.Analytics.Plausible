@@ -5,13 +5,13 @@
   "Title": "Lait Plausible Analytics for Umbraco",
   "Description": "Surface Plausible Analytics tracking data inside the Umbraco backoffice: a Tracking dashboard in the Content section and a per-page visits block on each document's Info tab.",
   "LicenseTypes": [ "Free" ],
-  "Tags": [ "analytics", "plausible", "tracking", "dashboard", "statistics" ],
-  "DocumentationUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible#readme",
-  "IssueTrackerUrl": "https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible/issues",
+  "Tags": [ "analytics", "plausible", "web analytics", "page tracking", "dashboard", "statistics" ],
+  "DocumentationUrl": "https://github.com/bootsmann1995/Lait.Umbraco.Analytics.Plausible#readme",
+  "IssueTrackerUrl": "https://github.com/bootsmann1995/Lait.Umbraco.Analytics.Plausible/issues",
   "AuthorDetails": {
     "Name": "Anders Bootsmann",
-    "Url": "https://lait.dk",
-    "ImageUrl": "https://github.com/laitdevelopers.png",
+    "Url": "https://github.com/bootsmann1995",
+    "ImageUrl": "https://github.com/bootsmann1995.png",
     "SyncContributorsFromRepository": true
   }
 }
