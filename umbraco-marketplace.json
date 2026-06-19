@@ -1,0 +1,8 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "packageType": "Package",
+  "category": "Analytics & Statistics",
+  "description": "Surface Plausible Analytics tracking data inside the Umbraco backoffice: a Tracking dashboard in the Content section and a per-page visits block on each document's Info tab.",
+  "tags": [ "analytics", "plausible", "tracking", "statistics", "dashboard" ],
+  "supportsUmbracoVersions": [ "17" ]
+}

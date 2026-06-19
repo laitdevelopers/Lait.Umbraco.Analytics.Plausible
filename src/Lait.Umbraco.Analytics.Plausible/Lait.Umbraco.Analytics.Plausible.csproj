@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Serve everything under wwwroot at /App_Plugins/LaitTracking.
+         This is how Umbraco 17 discovers the umbraco-package.json from a referenced
+         Razor Class Library (works for project references AND NuGet, no manual copy). -->
+    <StaticWebAssetBasePath>App_Plugins/LaitTracking</StaticWebAssetBasePath>
+
+    <!-- NuGet / Marketplace metadata (used by `dotnet pack`) -->
+    <PackageId>Lait.Umbraco.Analytics.Plausible</PackageId>
+    <Title>Lait Plausible Analytics for Umbraco</Title>
+    <Version>0.1.0</Version>
+    <Authors>Lait Developers</Authors>
+    <Description>Surfaces Plausible Analytics tracking data inside the Umbraco backoffice: a Content dashboard and a per-page block on each document's Info tab.</Description>
+    <PackageTags>umbraco umbraco-marketplace plausible analytics tracking dashboard</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/laitdevelopers/Lait.Umbraco.Analytics.Plausible</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Versions target Umbraco 17 (.NET 10 LTS). Adjust to match your installed Umbraco. -->
+    <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="17.0.0" />
+  </ItemGroup>
+
+  <!-- Include README in the NuGet package. Static web assets under wwwroot are packed automatically. -->
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+
+</Project>

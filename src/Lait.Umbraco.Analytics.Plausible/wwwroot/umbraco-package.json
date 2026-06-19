@@ -1,0 +1,33 @@
+{
+  "name": "Lait Tracking",
+  "version": "0.1.0",
+  "allowPackageTelemetry": false,
+  "extensions": [
+    {
+      "type": "dashboard",
+      "alias": "lait.dashboard.tracking",
+      "name": "Lait Tracking Dashboard",
+      "js": "/App_Plugins/LaitTracking/tracking-dashboard.js",
+      "elementName": "lait-tracking-dashboard",
+      "weight": 15,
+      "meta": {
+        "label": "Tracking",
+        "pathname": "tracking"
+      },
+      "conditions": [
+        { "alias": "Umb.Condition.SectionAlias", "match": "Umb.Section.Content" }
+      ]
+    },
+    {
+      "type": "workspaceInfoApp",
+      "alias": "lait.workspaceInfoApp.pageTracking",
+      "name": "Page Tracking Info",
+      "js": "/App_Plugins/LaitTracking/page-tracking-info.js",
+      "elementName": "lait-page-tracking-info",
+      "weight": 90,
+      "conditions": [
+        { "alias": "Umb.Condition.WorkspaceAlias", "match": "Umb.Workspace.Document" }
+      ]
+    }
+  ]
+}
