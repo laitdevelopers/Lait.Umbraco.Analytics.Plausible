@@ -14,7 +14,7 @@
     <!-- NuGet / Marketplace metadata (used by `dotnet pack`) -->
     <PackageId>Lait.Umbraco.Analytics.Plausible</PackageId>
     <Title>Lait Plausible Analytics for Umbraco</Title>
-    <Version>0.2.0</Version>
+    <Version>0.3.0</Version>
     <Authors>Anders Bootsmann</Authors>
     <Description>Surfaces Plausible Analytics tracking data inside the Umbraco backoffice: a Content dashboard and a per-page block on each document's Info tab.</Description>
     <PackageTags>umbraco umbraco-marketplace plausible analytics tracking dashboard</PackageTags>
